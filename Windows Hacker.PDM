@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Whacker
+
+
+[Package|Whacker|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Local Development\Windows Hacker\Package
+
+[Package|Whacker|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Whacker|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Whacker|Files Found]
+
+[Package|Whacker|Files Released]
+
+[Package|Whacker|Missing Dependency Information]
+
+[Package|Whacker|Out-of-Date Dependency Information]
+
+[Package|Whacker|Files Added]
+
+[Package|Whacker|Files Removed]
+
+[Package|Whacker|Files In Project]
+C:\Local Development\Windows Hacker\Whacker.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Whacker|Configure Registry Files]
+Applicable=No
+
+[Package|Whacker|Configure Remote Servers]
+Applicable=No
+
+[Package|Whacker|Install Locations]
+C:\Local Development\Windows Hacker\Whacker.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Whacker|Configure Shared Files]
+Applicable=Yes
+C:\Local Development\Windows Hacker\Whacker.exe=No
+
+[Package|Whacker|Distribution]
+Type=single
+Size=
+Title=Whacker
+
+[Package|Whacker|IconGroups]
+Group0=Whacker
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Whacker|Whacker]
+Icon1=Whacker.exe
+Title1=Whacker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Whacker|Package]
+PackageFolder=C:\Local Development\Windows Hacker\Package
+ProjectFolder=C:\Local Development\Windows Hacker
+ServerSideCab=
+File1=C:\Local Development\Windows Hacker\Package\setup.exe
+File2=C:\Local Development\Windows Hacker\Package\Setup.Lst
+File3=C:\Local Development\Windows Hacker\Package\Whacker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
